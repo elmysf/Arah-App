@@ -6,3 +6,11 @@
 //
 
 import Foundation
+import SwiftUI
+
+struct ArahHome: View {
+    var body: some View {
+        ArahView(prayerClass: PrayerTimesClass())
+     
+    }
+}

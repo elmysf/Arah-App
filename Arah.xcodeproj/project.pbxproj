@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		72340B812B0EE2D000B57B93 /* PrayerTimesClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72340B802B0EE2D000B57B93 /* PrayerTimesClass.swift */; };
+		72340B852B0EE42A00B57B93 /* ArahHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72340B842B0EE42A00B57B93 /* ArahHome.swift */; };
+		72340B872B0EE44A00B57B93 /* PrayerTimeHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72340B862B0EE44A00B57B93 /* PrayerTimeHeader.swift */; };
+		72340B892B0EE48700B57B93 /* PrayerTimeTableItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72340B882B0EE48700B57B93 /* PrayerTimeTableItem.swift */; };
+		72340B8B2B0EE4CC00B57B93 /* ArahTimeTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72340B8A2B0EE4CC00B57B93 /* ArahTimeTable.swift */; };
+		72340B8D2B0EE52800B57B93 /* LocationNotFoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72340B8C2B0EE52800B57B93 /* LocationNotFoundView.swift */; };
+		72340B912B0EE5B900B57B93 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72340B902B0EE5B900B57B93 /* TabBarView.swift */; };
+		72340B932B0EE60B00B57B93 /* ArahView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72340B922B0EE60B00B57B93 /* ArahView.swift */; };
 		72D39DA62B0855CC00EF3384 /* ArahApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D39DA52B0855CC00EF3384 /* ArahApp.swift */; };
 		72D39DA82B0855CC00EF3384 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D39DA72B0855CC00EF3384 /* ContentView.swift */; };
 		72D39DAA2B0855CD00EF3384 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72D39DA92B0855CD00EF3384 /* Assets.xcassets */; };
@@ -37,6 +44,13 @@
 
 /* Begin PBXFileReference section */
 		72340B802B0EE2D000B57B93 /* PrayerTimesClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimesClass.swift; sourceTree = "<group>"; };
+		72340B842B0EE42A00B57B93 /* ArahHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArahHome.swift; sourceTree = "<group>"; };
+		72340B862B0EE44A00B57B93 /* PrayerTimeHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimeHeader.swift; sourceTree = "<group>"; };
+		72340B882B0EE48700B57B93 /* PrayerTimeTableItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimeTableItem.swift; sourceTree = "<group>"; };
+		72340B8A2B0EE4CC00B57B93 /* ArahTimeTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArahTimeTable.swift; sourceTree = "<group>"; };
+		72340B8C2B0EE52800B57B93 /* LocationNotFoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationNotFoundView.swift; sourceTree = "<group>"; };
+		72340B902B0EE5B900B57B93 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		72340B922B0EE60B00B57B93 /* ArahView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArahView.swift; sourceTree = "<group>"; };
 		72D39DA22B0855CC00EF3384 /* Arah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arah.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72D39DA52B0855CC00EF3384 /* ArahApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArahApp.swift; sourceTree = "<group>"; };
 		72D39DA72B0855CC00EF3384 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -84,6 +98,27 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		72340B822B0EE3F600B57B93 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				72340B902B0EE5B900B57B93 /* TabBarView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		72340B832B0EE41200B57B93 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				72340B842B0EE42A00B57B93 /* ArahHome.swift */,
+				72340B922B0EE60B00B57B93 /* ArahView.swift */,
+				72340B862B0EE44A00B57B93 /* PrayerTimeHeader.swift */,
+				72340B882B0EE48700B57B93 /* PrayerTimeTableItem.swift */,
+				72340B8A2B0EE4CC00B57B93 /* ArahTimeTable.swift */,
+				72340B8C2B0EE52800B57B93 /* LocationNotFoundView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		72D39D992B0855CC00EF3384 = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +145,8 @@
 				72D39DA52B0855CC00EF3384 /* ArahApp.swift */,
 				72D39DA72B0855CC00EF3384 /* ContentView.swift */,
 				72340B7F2B0EE2C500B57B93 /* Model */,
+				72340B832B0EE41200B57B93 /* View */,
+				72340B822B0EE3F600B57B93 /* Components */,
 				72D39DA92B0855CD00EF3384 /* Assets.xcassets */,
 				72D39DAB2B0855CD00EF3384 /* Arah.entitlements */,
 				72D39DAC2B0855CD00EF3384 /* Preview Content */,
@@ -278,8 +315,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72340B932B0EE60B00B57B93 /* ArahView.swift in Sources */,
 				72D39DA82B0855CC00EF3384 /* ContentView.swift in Sources */,
+				72340B912B0EE5B900B57B93 /* TabBarView.swift in Sources */,
+				72340B892B0EE48700B57B93 /* PrayerTimeTableItem.swift in Sources */,
 				72340B812B0EE2D000B57B93 /* PrayerTimesClass.swift in Sources */,
+				72340B8B2B0EE4CC00B57B93 /* ArahTimeTable.swift in Sources */,
+				72340B852B0EE42A00B57B93 /* ArahHome.swift in Sources */,
+				72340B872B0EE44A00B57B93 /* PrayerTimeHeader.swift in Sources */,
+				72340B8D2B0EE52800B57B93 /* LocationNotFoundView.swift in Sources */,
 				72D39DA62B0855CC00EF3384 /* ArahApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -444,6 +488,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "To get quick access to the most accurate prayer times and corresponding qibla through the Arah app, you need to allow location access.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -453,7 +499,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
@@ -481,6 +527,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "To get quick access to the most accurate prayer times and corresponding qibla through the Arah app, you need to allow location access.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -490,7 +538,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
