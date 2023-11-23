@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72340B812B0EE2D000B57B93 /* PrayerTimesClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72340B802B0EE2D000B57B93 /* PrayerTimesClass.swift */; };
 		72D39DA62B0855CC00EF3384 /* ArahApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D39DA52B0855CC00EF3384 /* ArahApp.swift */; };
 		72D39DA82B0855CC00EF3384 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D39DA72B0855CC00EF3384 /* ContentView.swift */; };
 		72D39DAA2B0855CD00EF3384 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72D39DA92B0855CD00EF3384 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		72340B802B0EE2D000B57B93 /* PrayerTimesClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimesClass.swift; sourceTree = "<group>"; };
 		72D39DA22B0855CC00EF3384 /* Arah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arah.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72D39DA52B0855CC00EF3384 /* ArahApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArahApp.swift; sourceTree = "<group>"; };
 		72D39DA72B0855CC00EF3384 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,6 +76,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		72340B7F2B0EE2C500B57B93 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				72340B802B0EE2D000B57B93 /* PrayerTimesClass.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		72D39D992B0855CC00EF3384 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +109,7 @@
 			children = (
 				72D39DA52B0855CC00EF3384 /* ArahApp.swift */,
 				72D39DA72B0855CC00EF3384 /* ContentView.swift */,
+				72340B7F2B0EE2C500B57B93 /* Model */,
 				72D39DA92B0855CD00EF3384 /* Assets.xcassets */,
 				72D39DAB2B0855CD00EF3384 /* Arah.entitlements */,
 				72D39DAC2B0855CD00EF3384 /* Preview Content */,
@@ -268,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				72D39DA82B0855CC00EF3384 /* ContentView.swift in Sources */,
+				72340B812B0EE2D000B57B93 /* PrayerTimesClass.swift in Sources */,
 				72D39DA62B0855CC00EF3384 /* ArahApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
